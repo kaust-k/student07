@@ -1,0 +1,14 @@
+$kind: http-request
+description: ""
+url: "{{baseUrl}}/v1/users/:id"
+method: GET
+headers:
+  Accept: application/json
+pathVariables:
+  id: ""
+body:
+  type: text
+  content: ""
+settings: {}
+examples: ./.resources/Retrieve a user.resources/examples
+order: 1000
